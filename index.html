@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obed Tech | Portfolio</title>
+  <meta name="description" content="Obed Tech - Portfolio of a modern developer and tech creator." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">OT</span>
+        <span class="logo-text">Obed Tech</span>
+      </div>
+      <nav class="nav">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-tag">Hello, I'm</p>
+        <h1 class="hero-title">Obed Tech</h1>
+        <p class="hero-subtitle">
+          A developer focused on building clean, efficient, and scalable web solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Hire Me</a>
+        </div>
+        <div class="hero-meta">
+          <span class="meta-item">Clean Code</span>
+          <span class="meta-dot">•</span>
+          <span class="meta-item">Modern Design</span>
+          <span class="meta-dot">•</span>
+          <span class="meta-item">Reliable Delivery</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- Replace the gradient box with your real photo if you want -->
+        <div class="photo-placeholder">
+          <span>Obed</span>
+          <span>Tech</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="section about">
+    <div class="container about-inner">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          Learn more about who I am and what I do.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm Obed, the creator behind <strong>Obed Tech</strong>. I specialize in building
+            fast, accessible, and maintainable web applications with a strong focus on
+            user experience and modern development practices.
+          </p>
+          <p>
+            I care about writing <strong>clean, well-documented code</strong> that scales over time.
+            Whether it's a landing page, a full-stack app, or a custom dashboard,
+            I aim to deliver solutions that actually solve problems.
+          </p>
+          <p>
+            When I'm not coding, I explore new technologies, improve my design skills,
+            and refine development workflows to be more efficient and enjoyable.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <h3>What I do</h3>
+            <ul>
+              <li>Custom website development</li>
+              <li>Single-page applications</li>
+              <li>API integration and backend logic</li>
+              <li>Performance optimization</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Core values</h3>
+            <ul>
+              <li>Clean & readable code</li>
+              <li>Transparent communication</li>
+              <li>Continuous improvement</li>
+              <li>On-time delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">
+          Tools and technologies I work with.
+        </p>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 / CSS3 / SASS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React or similar frameworks</li>
+            <li>Responsive & mobile-first design</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>Backend</h3>
+          <ul>
+            <li>Node.js & Express</li>
+            <li>RESTful APIs</li>
+            <li>Authentication & authorization</li>
+            <li>Database design (SQL/NoSQL)</li>
+          </ul>
+        </div>
+        <div class="skills-group">
+          <h3>Tools & Practices</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Clean architecture</li>
+            <li>Code reviews & documentation</li>
+            <li>Agile & iterative development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">
+          A selection of work that shows my approach and style.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-badge">Featured</div>
+          <h3 class="project-title">Modern Landing Page</h3>
+          <p class="project-description">
+            A responsive, high-performance landing page built with semantic HTML, modern CSS, and vanilla JavaScript.
+          </p>
+          <ul class="project-tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <h3 class="project-title">Dashboard Web App</h3>
+          <p class="project-description">
+            A web dashboard with charts, user authentication, and real-time updates using APIs and modular code structure.
+          </p>
+          <ul class="project-tags">
+            <li>Node.js</li>
+            <li>REST API</li>
+            <li>Frontend Framework</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <h3 class="project-title">Portfolio Template</h3>
+          <p class="project-description">
+            A reusable, customizable portfolio starter with clean structure and reusable components, similar to this site.
+          </p>
+          <ul class="project-tags">
+            <li>Performance</li>
+            <li>Accessibility</li>
+            <li>Responsive</li>
+          </ul>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Source Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="section contact">
+    <div class="container contact-inner">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Have a project in mind or want to collaborate? Let's talk.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let’s build something together</h3>
+          <p>
+            Share a bit about your idea, timeline, and budget. I'll get back to you as soon as possible
+            with next steps and clear options.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Email:</strong> <a href="mailto:contact@obedtech.com">contact@obedtech.com</a></li>
+            <li><strong>Location:</strong> Ashburn, VA (Remote-friendly)</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="What is this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn full-width">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Obed Tech. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
